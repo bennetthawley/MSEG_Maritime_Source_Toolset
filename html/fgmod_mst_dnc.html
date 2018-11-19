@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>FGMOD Maritime Source Toolset</title>
+	<link rel="stylesheet" type="text/css" href="MSEG_Maritime_Source_Toolset.css">
+    <script type="text/javascript" language="javascript">
+        function RunFile(file) {
+		WshShell = new ActiveXObject("WScript.Shell");
+		WshShell.Run(file, 1, false);
+        }
+    </script>
+</head>
+<body>
+    
+    <ul class="header">
+        <li><a class="active" href="fgmod_mst_dnc.html">DNC</a></li>
+        <li><a href="fgmod_mst_tod.html">TOD</a></li>
+        <li><a href="fgmod_mst_reference.html">Reference</a></li>
+        <li style="float:right;padding-right:15px"><img src="mseg_logo_small.png"></li>
+    </ul>
+    
+    <div class="title">
+        <h3>DNC - FGMOD Source Toolset</h3>
+    </div>
+    
+    <div style="text-align: center;">
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <input type="button" value="Run Notepad" class="button button1" onclick="RunFile('tkinter_GUI_template.bat')"/>
+            <a href="#" class="button button1">Do my work</a>
+            <br/>
+            <a href="#" class="button button1">Solve Problems</a>
+            <br/>
+            <a href="#" class="button button1">Fix Arcmap</a>
+            <br/>
+        </div>
+
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <a href="#" class="button button1">Do my work</a>
+            <br/>
+            <a href="#" class="button button1">Solve Problems</a>
+            <br/>
+            <a href="#" class="button button1">Fix Arcmap</a>
+            <br/>
+        </div>
+        
+    </div>
+    
+
+    <div class="footer">
+        <span class="bottom_message">Something Something Something<br/>-Someone</span>
+        <br/>
+        <span>POC for this toolset:<br/>Bennett Hawley<br/>Someone else</span>
+    </div>
+
+    </body>
+</html>

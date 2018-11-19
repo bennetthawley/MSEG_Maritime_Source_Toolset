@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>  
+<head>
+	<title>FGMOD Maritime Source Toolset</title>
+	<!-- meta tag used to give hta the ability to read css like IE 11 -->
+	<meta http-equiv="x-ua-compatible" content="IE=11"/>
+	<link rel="stylesheet" type="text/css" href="css_js/MSEG_Maritime_Source_Toolset.css">
+	<script type="text/javascript" src="css_js/MSEG_Maritime_Source_Toolset.js"></script>
+    <HTA:APPLICATION ID="MSEG_Maritime_Source_Toolset" 
+	    APPLICATIONNAME="FGMOD Maritime Source Toolset" 
+	    BORDER="yes"
+	    CAPTION="yes"
+	    SHOWINTASKBAR="yes"
+	    SINGLEINSTANCE="yes"
+	    SYSMENU="yes"
+	    SCROLL="yes"
+	    WINDOWSTATE="maximize">
+</head>
+<!-- body tag includes javascript to automatically "click" the DNC tab when the application opens -->
+<body>
+	
+	<ul class="header">
+        <button class="tablinks" onclick="openPage(event, 'DNC')" id="defaultOpen">DNC</button>
+        <button class="tablinks" onclick="openPage(event, 'TOD')">TOD</button>
+		<button class="tablinks" onclick="openPage(event, 'Reference')">Reference</button>
+		<li style="float:right;padding-right:15px"><img src="images/mseg_logo_small.png">
+    </ul>
+	
+    <!-- container div tag for centering all child toolgroups -->
+    <div id="DNC" class="tabcontent">
+		<!-- title block -->
+		<div class="title">
+			<h3>DNC - FGMOD Source Toolset</h3>
+		</div>
+		<!-- div tag with links to create a toolgroup -->
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <input class="button button1" type="button" value="Run Notepad" onclick="RunFile('C:/Users/benne/OneDrive/Documents/GitHub/Python_GUI/tkinter_GUI_template.bat');"/>
+            <br/>
+			<a href="#" class="button button1">Do my work</a>
+            <br/>
+            <a href="#" class="button button1">Solve Problems</a>
+            <br/>
+            <a href="#" class="button button1">Fix Arcmap</a>
+            <br/>
+        </div>
+		<!-- div tag with links to create a toolgroup -->
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <a href="#" class="button button1">Do my work</a>
+            <br/>
+            <a href="#" class="button button1">Solve Problems</a>
+            <br/>
+            <a href="#" class="button button1">Fix Arcmap</a>
+            <br/>
+        </div>
+    </div>
+	
+	<div id="TOD" class="tabcontent">
+		<!-- title block -->
+		<div class="title">
+			<h3>TOD - FGMOD Source Toolset</h3>
+		</div>
+		<!-- div tag with links to create a toolgroup -->
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <input class="button button1" type="button" value="Run Notepad" onclick="RunFile('C:/Users/benne/OneDrive/Documents/GitHub/Python_GUI/tkinter_GUI_template.bat');"/>
+        </div>
+	</div>
+    <!-- div tag creating fixed footer -->
+    <div class="footer">
+        <span class="bottom_message">Something Something Something<br/>-Someone</span>
+        <br/>
+        <span>POC for this toolset:<br/>Bennett Hawley<br/>Someone else</span>
+    </div>
+	
+	<div id="Reference" class="tabcontent">
+		<!-- title block -->
+		<div class="title">
+			<h3>Reference - FGMOD Source Toolset</h3>
+		</div>
+		<!-- div tag with links to create a toolgroup -->
+        <div class="toolgroup">
+            <h3>Toolgroup 1</h3>
+            <input class="button button1" type="button" value="Run Notepad" onclick="RunFile('C:/Users/benne/OneDrive/Documents/GitHub/Python_GUI/tkinter_GUI_template.bat');"/>
+            <br/>
+			<a href="#" class="button button1">Do my work</a>
+            <br/>
+            <a href="#" class="button button1">Solve Problems</a>
+            <br/>
+            <a href="#" class="button button1">Fix Arcmap</a>
+            <br/>
+        </div>
+	</div>
+	
+<script>
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+body {margin:auto;
+    background-color: #0d324d;
+    background-image: url('../images/Nautical-chart-1.jpg');
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Calibri, sans-serif;
+    }
+
+h1 {font-size: 30px;
+    font-weight: 700;
+    font-family: Calibri, sans-serif;
+    color: #c0e0de;
+    text-align: center;
+    display: block;
+	}
+
+h2 {font-size: 26px;
+    font-weight: 600;
+    font-family: Calibri, sans-serif;
+    color: #c0e0de;
+    text-align: center;
+    display: block;
+	}
+
+h3 {font-size: 24px;
+    font-weight: 600;
+    font-family: Calibri, sans-serif;
+    color: #c0e0de;
+    text-align: center;
+    display: block;
+	}
+
+.soon {font-size: 20px;
+    font-weight: 500;
+    font-family: Calibri, sans-serif;
+    color: #ff220c;
+    text-align: center;
+	}
+    
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Style the buttons that are used to open the tab content */
+ul.header button{
+    float: left;
+    display: inline-block;
+	font-size: 24px;
+    font-weight: 600;
+    font-family: Calibri, sans-serif;
+    color: #c0e0de;
+	border: none;
+    outline: none;
+    cursor: pointer;
+    color: #c0e0de;
+	background-color: #000000;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+
+/* Change background color of buttons on hover */
+ul.header button:hover {
+    background-color: #2b303a;
+    color: #ff220c;
+	transition-duration: 0.5s;
+}
+
+/* Create an active/current tablink class */
+ul.header button.active {
+    background-color: #0d324d;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+	text-align: center;
+} 
+
+
+.footer {
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: block;
+}
+
+.bottom_message{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: block;
+    padding: 2px;
+    margin: 0px;
+}
+
+/* li a {
+    float: left;
+    display: block;
+    color: #c0e0de;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #2b303a;
+    color: #ff220c;
+	transition-duration: 0.5s;
+
+} */
+
+.title{
+    padding:1px 1px 1px 1px;
+    margin-top:50px;
+    background-color: #0d324d;
+}
+
+/* .active {
+    background-color: #0d324d;
+
+} */
+
+.toolgroup {
+    border: 2px solid #c0e0de;
+    border-radius: 6px;
+    opacity: 0.9;
+    background-color: #0d324d;
+    color: #c0e0de;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+.toolgroup:hover{
+    border: 2px solid #ff220c;
+	transition-duration: 2s;
+    }
+    
+.button {
+    border: none;
+    border-radius: 6px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Calibri, sans-serif;
+    margin: 4px;
+}
+
+.button1 {
+	border: 3px solid #c0e0de;
+    background-color: #0d324d; 
+    color: #c0e0de; 
+
+}
+
+.button1:hover {
+    border: 3px solid #ff220c;
+    color: #ff220c;
+	transition-duration: 0.4s;
+}
+    
+.button1:active {
+    border: 3px solid #ff220c;
+    color: #0d324d;
+    background-color: #ff220c;
+	transition-duration: 0.1s;
+}
+
+.footer {
+    background-color: #000000;
+
+    color: #c0e0de;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Calibri, sans-serif;
+    padding: 0px 15px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 0;
+    width: 100%
+    }
